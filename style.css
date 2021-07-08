@@ -1,0 +1,207 @@
+body {
+  background-color: #EFF6FF;
+}
+
+button {
+  outline: none;
+}
+
+.left-form {
+  display: flex;
+  align-items: flex-start;
+  float: left;
+  width: 50%;
+  max-width: 759px;
+  height: 1000px;
+  background-image: url("img/bg.jpg");
+  margin: 5% 0 5% 5%;
+}
+
+.logo {
+  width: 20%;
+  margin: 5%;
+}
+
+.right-form {
+  float: left;
+  margin: 5% 5% 5% 0;
+  width: 40%;
+  background-color: white;
+  height: 1000px;
+}
+
+h1, h2 {
+  font-family: Barlow;
+  color: #2A4A5C;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.text-under-header, .text {
+  font-family: Barlow;
+  color:#7B8A92;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.buttons{
+  display: flex;
+}
+
+.facebook, .linkidin {
+  display: flex;
+  align-items: flex-start;
+  font-family: BarLow;
+  font-size: 90%;
+  color: white;
+  height: 44px;
+  width: 36%;
+  background-color: #255A9B;
+  margin-left: 10%;
+  margin-top: 7%;
+  /* text-align: center; */
+}
+
+.linkidin {
+  background-color: #0076B6;
+}
+
+.facebook__icon, .linkidin__icon {
+  align-self: center;
+  float: left;
+  width: 22px;
+  height: 22px;
+}
+
+.facebook__text, .linkidin__text {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.title {
+  overflow: hidden;
+  text-align: center;
+  font-size: 70%;
+  margin-top: 56px;
+  font-family: Barlow;
+}
+
+.title span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title:before, .title:after {
+  /* Обязательно указываем пустое свойство content,
+    ** иначе псевдоэлементы не появятся на сайте */
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 107px;
+  height: 1px;
+  background-color: gray;
+  /* Добавляем пседоэлемантам возможность изменить
+    ** позицию линии, для создания отступов от текста */
+  position: relative;
+}
+
+.title:before {
+  /* Смещаем левую линию на 100% влево, чтобы линия
+    ** встала рядом с текстом слева */
+  margin-left: -100%;
+  left: -14px;
+}
+
+.title:after {
+  margin-right: -100%;
+  right: -14px;
+}
+
+.email__input, .phone__input {
+  border: none;
+  width: 98%;
+  height: 60%;
+  outline: none;
+  margin-left: 2%;
+}
+
+.email, .phone {
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-top: -100px;
+  height: 60px;
+  width: 197px;
+  border: 1px solid lightgrey;
+  overflow: hidden;
+}
+
+.email__text, .phone__text {
+  padding: 2%; 
+  margin: 0;
+  font-family: Barlow;
+  font-size: 83%;
+  color: #8E8E8E;
+}
+
+.text {
+  font-size: small;
+}
+
+fieldset {
+  margin-top: 5%;
+  margin-left: 7%;
+  font-family: BarLow;
+  font-size: 80%;
+  color: #2A4A5C;
+  border: 0 none;
+}
+
+#b2, #b3, #b4 {
+  margin-left: 13%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.prompt {
+  display: inline-block;
+  width:256px;
+  height: 65px;
+  font-family: Barlow;
+  font-size: 80%;
+  color: #8E8E8E;
+  margin-top: 1%;
+  margin-left: 10%;
+  padding: 10px 10px 0 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.agree {
+  font-family: Barlow;
+  font-size: 83%;
+  color: #8E8E8E;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right: 7%;
+}
+
+.terms {
+  color: deepskyblue;
+  margin-left: 3px;
+}
+
+.create_account {
+  width: 241px;
+  height: 42px;
+  background-color: #3698FB;
+  border-color: #3698FB;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: Barlow;
+  color: white;
+  font-weight: bold;
+  font-size: 100%;
+  border-radius: 8px;
+}
+
